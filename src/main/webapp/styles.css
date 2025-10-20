@@ -1,0 +1,7 @@
+body { font-family: Arial; margin: 40px; background: #fafafa; }
+h1 { color: #333; }
+.event { padding: 10px; background: #fff; border-radius: 8px; box-shadow: 0 0 4px #ccc; margin-bottom: 15px; }
+button { margin-left: 10px; }
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+.link { float: right; margin-bottom: 15px; }
