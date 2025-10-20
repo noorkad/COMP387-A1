@@ -12,10 +12,14 @@ public class EventListServlet extends HttpServlet {
 
     @Override
     public void init() {
-        events = new ArrayList<>();
-        events.add(new Event("Tech Talk", "Oct 25, 2025 - 10 AM", "Room A101", "Latest in AI trends.", 50));
-        events.add(new Event("Workshop", "Oct 30, 2025 - 2 PM", "Room B202", "Hands-on coding workshop.", 75));
-        events.add(new Event("Hackathon", "Nov 10, 2025 - 9 AM", "Room C303", "24-hour hackathon.", 100));
+    	events = new ArrayList<>();
+        events.add(new Event("HackConcordia Open House", "Oct 25, 2025 - 10 AM", "H520",
+                "Meet the people behind HackConcordia!", 10));
+        events.add(new Event("Lizard Lounge", "Oct 30, 2025 - 2 PM", "Rm1.210",
+                "Compete in riddles, coding puzzles, and engineering challenges.", 25));
+        events.add(new Event("ConuHacks IX", "Nov 10, 2025 - 9 AM", "H403",
+                "Showcase your passion for technology, creativity, and problem-solving skills in this 24H hackathon.",
+                40));
     }
 
     @Override
